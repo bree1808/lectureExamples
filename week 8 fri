@@ -1,1 +1,7 @@
+/*  Write a C program which reads a PPM image from a file and outputs the mean RGB value of all pixels to the console.
+    The program should include a function which reads the PPM header and uses pointers to “return” the resolution. 
+    An array should be declared to hold the whole image and a second function used to read the file.
+    A third function should then analyse the pixel data and calculate the mean value. 
+    This function should accept a pointer to the image data array and pointers to three floats which get assigned the mean pixel value.
+
 

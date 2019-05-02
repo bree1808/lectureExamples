@@ -1,0 +1,23 @@
+/*  
+ * Write a C function which takes a single int * argument and zeros it. 
+ * The function prototype is void zeroInt(int *x);
+ * Write your own “test code” to verify the function’s operation
+*/
+
+#include<stdio.h>
+
+void zeroInt(int *x);
+
+main()
+{
+    int testInt = 100;
+    printf("%d\n", testInt);
+    zeroInt(&testInt);
+    printf("%d\n", testInt);
+}
+
+void zeroInt(int *x)
+{
+    *x = 0;
+    
+}
